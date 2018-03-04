@@ -103,6 +103,7 @@ const styles = StyleSheet.create({
   },
   addButtomText: {
     fontSize: 35,
+    lineHeight: 35,
     color: '#fff',
   },
 });
