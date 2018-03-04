@@ -50,6 +50,10 @@ const styles = StyleSheet.create({
     paddingTop: 50,
     paddingBottom: 10,
     marginBottom: 5,
+    shadowColor: 'rgb(100, 100, 100)',
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
   },
   apptitle: {
     color: '#FFF',
@@ -92,6 +96,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     zIndex: 30,
+    shadowColor: 'rgb(100, 100, 100)',
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.3,
+    shadowRadius: 3,
   },
   addButtomText: {
     fontSize: 35,
